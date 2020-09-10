@@ -1,8 +1,4 @@
---[[
-    EzHook apart of EzLibraries
-    by ToddDev
-    Gonna stop commenting as much
-]]--
+
 local EzHook = {}
 function EzHook:HookIndex(index,func,returnvalue)
     assert(index~=nil,"EzHook:HookIndex() | Expected string as argument #1")
